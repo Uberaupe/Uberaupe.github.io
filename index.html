@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../style.css">
+  <title>Relatório</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="option">
+        <a href="../index.html">Inicio</a>
+      </div>
+      <div class="option">
+        <a href="pages/garantia.html">Garantia</a>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <h1>
+        Montagem do processo padrão
+      </h1>
+      <p>
+        Antes de enviar a peça para nossos forncedores, 
+        precisamos preparar documentos e coletar informações 
+        para que o processo seja bem sucessido.
+      </p>
+    </section>
+    <section>
+      <article>
+        <div class="text">
+          <h2>
+            1° - Recebimento da mercadoria.
+          </h2>
+          <p>
+            Quando o cliente traz a mercadoria, é interessante que o vendedor solicite 
+            algumas informações se ja não souber é claro. Sendo elas:
+          </p>
+          <ul>
+            <li>Modelo/Ano do Veículo</li>
+            <li>Qual defeito?</li>
+            <li>Quantos KM rodou com a peça antes que apresentasse defeito?</li>
+          </ul>
+          <p>
+            Lembrando que, não é obrigatório, mas ajuda bastante no processo de monstagem da garantia.
+            Toda informação coletada influencia na velocidade e garantia de que o processo finalizará 
+            com melhor resultado para a empresa.
+          </p>
+        </div>
+        <img src="" alt="">
+      </article>
+    </section>
+    <section>  
+      <h2>
+        2° - Cadastro da mercadoria no sistema de garantia
+      </h2>
+      <ul id="excelWeb">
+        <li>
+          <h4>Excel</h4>
+          <p> 
+            Temos salvo em .xlsx um arquivo construido para servir como uma espécie de cadastro de mercadoria defeituosa.
+            Neste cadastro informamos toaas as informações necessárias que serão utilizadas durante o processo,
+            desde o momento em que a peça sai da loja com cliente, até o momento em que ela retorna da garantia.
+          </p>
+          <img src="../img/garantiaExcel.png" alt="">
+        </li>
+        <li>
+          <h4>Sistema Próprio</h4>
+          <p>
+            Em breve contaremos também com um sistema web único para nossa empresa, onde teremos salvo
+            em um banco de dados, as mesmas informações que antes eram deixadas em um arquivo .xlsx. 
+            Este sistema age de maneira mais intuitiva e mais organizada, para melhorar assim, nosso trabalho administrativo.
+          </p>
+          <img src="../img/garantiaWeb.gif" alt="">
+        </li>
+      </ul>
+      <article>
+        <div class="text">
+          <h3>Pesquisa e Coleta de Dados</h3>
+          <p>
+            Quando a peça chega no setor de garantia e não possuimos os dados para cadastrar, 
+            temos garimpar e localizar informações favoráveis a nós. 
+          </p>
+          <p>
+            Para fazer isto, utilizamos o sistema Ábaco para ver um relatório detalhado de peça. 
+            No exemplo a seguir, utilizaremos a peça com código 3556 e 5000.
+            Segue o passo a passo:
+          </p>
+          <ul>
+            <li>
+              Abra o sistema acessando a area de programas abertos no canto inferior direito do windows.
+            </li>
+            <li>
+              Após aberto, vá na opção <b>Cadastros > Mercadoria</b> 
+            </li>
+            <li>
+              Clique em <b>Consulta</b>, digite o código da peça que deseja cadastrar e tecle Enter.
+            </li>
+            <li>
+              Irá abrir as informações da peça. Sendo assim, vá na opção <b>Relatório > Ficha</b> ou tecle <b>F5</b> no teclado.
+            </li>
+          </ul>
+        </div>
+        <img src="../img/pesquisaF5.gif" alt="">
+      </article>
+      <article>
+        <img src="../img/5000.png" alt="">
+        <div class="text">
+          <h3>Entendendo os Dados</h3>
+          <p>
+            O sistema entregará dados como nota fiscal de venda, onde encontraremos a quantidade vendida e a data de emissão da nota, 
+            assim como vamos ver a nota fiscal de compra, com nome da empresa em que a peça foi comprada, quantidade na nota, numero da nota e data de lançamento no sistema.<br>
+            Ps.: A data que aparece junto a nota de compra, não se refere a data de emissão da nota e sim data de lançamento no sistema.
+          </p>
+          <p>
+            Como pode ver a imagem abaixo, de azul temos informações referente as vendas, e de verde a cada compra que fizemos da peça.<br>
+            Note que, na coluna <b>Quant.</b>, temos o sinal de subtração(-) para simbolizar
+            a retirada da peça do sistema, e o sinal de adição(+), simbolizando o acréscimo
+            da quantidade no sistema. 
+          </p>
+        </div>
+      </article>
+    </section>
+  </main>
+</body>
+</html>
