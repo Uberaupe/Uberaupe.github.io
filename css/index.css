@@ -1,0 +1,120 @@
+@charset "UTF-8";
+/* 
+ORDEM {
+  tamanho
+  posição própria
+  posição filho 
+  coloração/estilo
+  efeito
+}                  */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #3f3f9d;
+}
+
+main {
+  width: 25vw;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #191970;
+  border: 2px solid #101048;
+  color: white;
+}
+
+section {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: arial;
+}
+section div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+section .box1 {
+  width: 100%;
+  height: 30%;
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: 700;
+}
+section .box1 .texto {
+  margin-top: 30px;
+  height: 30%;
+}
+section .box1 .message {
+  color: red;
+  font-size: 0.75rem;
+  width: 100%;
+  height: 20%;
+}
+section .box2 {
+  width: 100%;
+  height: 40%;
+  gap: 5px;
+}
+section .box2 input {
+  width: 70%;
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid white;
+  background-color: transparent;
+  font-size: 1rem;
+  color: white;
+}
+section .box2 input:hover {
+  border: none;
+  border-bottom: 1px solid #101048;
+  background-color: transparent;
+}
+section .box2 input:focus {
+  outline: none;
+  border-bottom: 1px solid #101048;
+  background-color: transparent;
+  color: white;
+}
+section .box2 input:valid {
+  color: white;
+}
+section .box2 input::-moz-placeholder {
+  color: white;
+}
+section .box2 input::placeholder {
+  color: white;
+}
+section .box3 {
+  width: 100%;
+  height: 30%;
+}
+section .box3 button {
+  width: 150px;
+  padding: 10px;
+  background-color: #3f3f9d;
+  color: white;
+  font-size: 1.25rem;
+  text-align: center;
+}
+section .box3 button:hover {
+  background-color: #101048;
+}/*# sourceMappingURL=index.css.map */
