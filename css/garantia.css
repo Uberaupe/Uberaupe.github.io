@@ -206,16 +206,19 @@ img {
 	padding-right: 10px;
 }*/
 
-#um p{
+#um p, #dois p{
 	padding-left: 10px;
+}
+
+#dois p{
+	padding-bottom: 30px;
 }
 
 #um, #dois{
 	/*background-color: aqua;*/
 	display: flex;
-	gap: 50px;
-	height: 60vh;
-	margin-bottom: 120px;
+	flex-direction: column;
+	margin-bottom: 50px;
 }
 
 #tres p{
@@ -241,7 +244,7 @@ img {
 	display: flex;
 	flex-direction: column;
 	gap: 5px;
-	width: 60%;
+	width: 80%;
 	margin-left: 50px;
 }
 
